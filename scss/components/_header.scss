@@ -1,0 +1,16 @@
+@import "../base/variables";
+@import "../base/extends";
+
+
+.hero-index{
+    @extend %headertortuga;
+}
+.nav-link{
+    color:$tortuga1;
+    &:hover{
+        color:$tortuga2;
+    }
+}
+.navbar-light2 .navbar-toggler-icon{
+    background-image: url(../../img/iconos/menu.png);
+}

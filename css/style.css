@@ -1,0 +1,28 @@
+.hero-index {
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #141D27;
+}
+
+.navbar-light2 .navbar-toggler-icon {
+  background-image: url(../../img/iconos/menu.png);
+}
+
+.hero-index {
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */
