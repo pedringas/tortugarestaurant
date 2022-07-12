@@ -2,15 +2,68 @@
 @import "../base/extends";
 
 
+@media screen and (min-width: 992px) {
+    .ocultar{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .ocultar2{
+        display: none;
+    }
+}
+
+
 .hero-index{
     @extend %headertortuga;
 }
+
 .nav-link{
     color:$tortuga1;
     &:hover{
-        color:$tortuga2;
+        color: $tortuga1;
     }
 }
+.nav-link:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: $tortuga1;
+    transition: 300ms;
+}
+.nav-link:hover:after {
+    width: 100%;
+}
+
 .navbar-light2 .navbar-toggler-icon{
     background-image: url(../../img/iconos/menu.png);
+}
+.navbar-nav{
+    align-items: flex-end;
+}
+
+.offcanvas{
+    background-color: $tortuga2;
+}
+.texto-header-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem ;
+
+}
+.boton-header-index a{
+    color: $tortuga1;
+    border: 2px solid $tortuga1;
+    border-radius: 2rem;
+    padding: 10px 15px;
+    transition: all 0.5s;
+    &:hover{
+        background-color: $tortuga2;
+        color: $tortuga1;
+        border: 2px solid $tortuga2;
+        
+    }
+
 }

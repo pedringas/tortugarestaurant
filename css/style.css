@@ -6,15 +6,93 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 992px) {
+  .ocultar {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .ocultar2 {
+    display: none;
+  }
+}
 .nav-link {
   color: white;
 }
 .nav-link:hover {
-  color: #141D27;
+  color: white;
+}
+
+.nav-link:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: white;
+  transition: 300ms;
+}
+
+.nav-link:hover:after {
+  width: 100%;
 }
 
 .navbar-light2 .navbar-toggler-icon {
   background-image: url(../../img/iconos/menu.png);
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
+
+.offcanvas {
+  background-color: #141D27;
+}
+
+.texto-header-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.boton-header-index a {
+  color: white;
+  border: 2px solid white;
+  border-radius: 2rem;
+  padding: 10px 15px;
+  transition: all 0.5s;
+}
+.boton-header-index a:hover {
+  background-color: #141D27;
+  color: white;
+  border: 2px solid #141D27;
+}
+
+body {
+  font-family: oldbook;
+}
+body a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+body h1 {
+  font-size: 3rem;
+  color: white;
+}
+body h2 {
+  font-size: 2.5rem;
+}
+body h3 {
+  font-size: 2rem;
+}
+body h4 {
+  font-size: 1.5rem;
+}
+body h5 {
+  font-size: 1rem;
+}
+body h6 {
+  font-size: 0.5rem;
 }
 
 .hero-index {
