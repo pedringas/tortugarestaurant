@@ -12,10 +12,24 @@
         display: none;
     }
 }
-
-
-.hero-index{
-    @extend %headertortuga;
+.fixed-top{
+    position: absolute;
+}
+nav ul {
+    display: block;
+    float: right;
+    overflow: hidden;
+    margin: 7px 0;
+    margin-right: 10px;
+  }
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .nav-link{
@@ -37,7 +51,7 @@
 }
 
 .navbar-light2 .navbar-toggler-icon{
-    background-image: url(../../img/iconos/menu.png);
+    background-image: url(../img/iconos/menu.png);
 }
 .navbar-nav{
     align-items: flex-end;
@@ -50,7 +64,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem ;
+    margin-top: 40vh ;
+
+}
+.texto-header-index-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70vh ;
 
 }
 .boton-header-index a{

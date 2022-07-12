@@ -1,11 +1,3 @@
-.hero-index {
-  background-size: cover;
-  height: 600px;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 @media screen and (min-width: 992px) {
   .ocultar {
     display: none;
@@ -16,6 +8,28 @@
     display: none;
   }
 }
+.fixed-top {
+  position: absolute;
+}
+
+nav ul {
+  display: block;
+  float: right;
+  overflow: hidden;
+  margin: 7px 0;
+  margin-right: 10px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .nav-link {
   color: white;
 }
@@ -37,7 +51,7 @@
 }
 
 .navbar-light2 .navbar-toggler-icon {
-  background-image: url(../../img/iconos/menu.png);
+  background-image: url(../img/iconos/menu.png);
 }
 
 .navbar-nav {
@@ -52,7 +66,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 40vh;
+}
+
+.texto-header-index-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70vh;
 }
 
 .boton-header-index a {
@@ -95,12 +116,37 @@ body h6 {
   font-size: 0.5rem;
 }
 
-.hero-index {
-  background-size: cover;
-  height: 600px;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
+.row {
+  --bs-gutter-x: 0px;
+}
+
+.carta-index {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.texto-carta-index, .boton-carta-index {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-carta-index {
+  color: white;
+  text-align: center;
+}
+
+.boton-carta-index a {
+  border: 2px solid white;
+  color: #141D27;
+  background-color: white;
+  padding: 10px 15px;
+  transition: ease-out 0.5s;
+}
+.boton-carta-index a:hover {
+  border: 2px solid #141D27;
+  color: white;
+  background-color: #141D27;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 992px) {
+   
+}
+@media screen and (max-width: 992px) {
+  
+}
+.row{
+   --bs-gutter-x: 0px;
+}
+
+.carta-index{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.texto-carta-index, .boton-carta-index{
+    display: flex;
+    justify-content: center ;
+}
+.texto-carta-index{
+    color: $tortuga1;
+    text-align: center;
+}
+
+.boton-carta-index a{
+    border: 2px solid $tortuga1;
+    color: $tortuga2;
+    background-color: $tortuga1;
+    padding: 10px 15px;
+    transition: ease-out 0.5s;
+    &:hover{
+        border: 2px solid $tortuga2;
+    color: $tortuga1;
+    background-color: $tortuga2;
+    }
+}
