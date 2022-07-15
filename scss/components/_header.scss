@@ -68,13 +68,11 @@ nav ul {
     flex-direction: column;
     align-items: center;
     margin-top: 40vh ;
+    text-align: center;
 
 }
-.texto-header-index-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 70vh ;
+.texto-header-index-btn a {
+    margin-top: 10vh ;
 
 }
 .boton-header-index a{
@@ -83,9 +81,10 @@ nav ul {
     border-radius: 2rem;
     padding: 10px 15px;
     transition: all 0.5s;
+    background-color: $tortuga2;
     &:hover{
-        background-color: $tortuga2;
-        color: $tortuga1;
+        background-color: $tortuga1;
+        color: $tortuga2;
         border: 2px solid $tortuga2;
         
     }
