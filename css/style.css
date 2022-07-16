@@ -59,7 +59,7 @@ nav ul {
 }
 
 .offcanvas {
-  background-color: #141D27;
+  background-color: #061721;
 }
 
 .texto-header-index {
@@ -70,8 +70,8 @@ nav ul {
   text-align: center;
 }
 
-.texto-header-index-btn a {
-  margin-top: 10vh;
+.boton-header-index {
+  margin-top: 70vh;
 }
 
 .boton-header-index a {
@@ -80,12 +80,12 @@ nav ul {
   border-radius: 2rem;
   padding: 10px 15px;
   transition: all 0.5s;
-  background-color: #141D27;
+  background-color: #061721;
 }
 .boton-header-index a:hover {
   background-color: white;
-  color: #141D27;
-  border: 2px solid #141D27;
+  color: #061721;
+  border: 2px solid #061721;
 }
 
 body {
@@ -124,6 +124,10 @@ body h6 {
     font-size: 15px;
     padding: 5px 10px;
   }
+
+  #titulo-carta {
+    display: none;
+  }
 }
 @media screen and (max-width: 450px) {
   .texto-carta-index h2 {
@@ -146,9 +150,9 @@ body h6 {
 }
 
 .fondo-carta-index {
-  background-image: url(../img/portadas/fondo_index_espacio.jpg);
+  background-color: #061721;
   background-size: cover;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
 }
 
@@ -164,15 +168,48 @@ body h6 {
 
 .boton-carta-index a {
   border: 2px solid white;
-  color: #141D27;
+  border-radius: 2rem;
+  color: #061721;
   background-color: white;
   padding: 10px 15px;
   transition: ease-out 0.5s;
 }
 .boton-carta-index a:hover {
-  border: 2px solid #141D27;
+  border: 2px solid white;
   color: white;
-  background-color: #141D27;
+  background-color: #061721;
+}
+
+.nosotros-index {
+  margin-top: 5rem;
+}
+
+.boton-main-index a {
+  color: white;
+  border: 2px solid white;
+  border-radius: 2rem;
+  padding: 10px 15px;
+  transition: all 0.5s;
+  background-color: #061721;
+}
+.boton-main-index a:hover {
+  background-color: white;
+  color: #061721;
+  border: 2px solid #061721;
+}
+
+.fondo-delivery-index {
+  background-image: url(../../img/portadas/fondo_banner_delivery.jpg);
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+}
+
+.delivery-index {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 3rem 0rem;
 }
 
 /*# sourceMappingURL=style.css.map */

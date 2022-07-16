@@ -10,6 +10,10 @@
         font-size: 15px;
         padding: 5px 10px;
     }
+    #titulo-carta{
+        display: none;
+    }
+
 }
 @media screen and (max-width: 450px) {
     .texto-carta-index h2{
@@ -32,9 +36,9 @@
     
 }
 .fondo-carta-index{
-    background-image: url(../img/portadas/fondo_index_espacio.jpg);
+    background-color: $tortuga2;
     background-size: cover; 
-    height: 20vh; 
+    height: 30vh; 
     width: 100%;
 }
 .texto-carta-index, .boton-carta-index{
@@ -48,13 +52,50 @@
 
 .boton-carta-index a{
     border: 2px solid $tortuga1;
+    border-radius: 2rem;
     color: $tortuga2;
     background-color: $tortuga1;
     padding: 10px 15px;
     transition: ease-out 0.5s;
     &:hover{
-        border: 2px solid $tortuga2;
+    border: 2px solid $tortuga1;
     color: $tortuga1;
     background-color: $tortuga2;
     }
+}
+
+.nosotros-index{
+    margin-top: 5rem;
+}
+
+.boton-main-index a{
+    color: $tortuga1;
+    border: 2px solid $tortuga1;
+    border-radius: 2rem;
+    padding: 10px 15px;
+    transition: all 0.5s;
+    background-color: $tortuga2;
+    &:hover{
+        background-color: $tortuga1;
+        color: $tortuga2;
+        border: 2px solid $tortuga2;
+        
+    }
+
+}
+
+.fondo-delivery-index{
+    background-image: url(../../img/portadas/fondo_banner_delivery.jpg);
+    background-size: cover; 
+    height: 30vh; 
+    width: 100%;
+
+}
+
+.delivery-index{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3rem 0rem;
+    
 }
