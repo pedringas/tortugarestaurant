@@ -6,10 +6,6 @@
     .texto-carta-index h2{
         font-size: 30px;
     }
-    .boton-carta-index a{
-        font-size: 15px;
-        padding: 5px 10px;
-    }
     #titulo-carta{
         display: none;
     }
@@ -19,10 +15,7 @@
     .texto-carta-index h2{
         font-size: 20px;
     }
-    .boton-carta-index a{
-        font-size: 10px;
-        padding: 5px 10px;
-    }
+
 }
 
 .row{
@@ -38,7 +31,7 @@
 .fondo-carta-index{
     background-color: $tortuga2;
     background-size: cover; 
-    height: 30vh; 
+    height: 40vh; 
     width: 100%;
 }
 .texto-carta-index, .boton-carta-index{
@@ -87,7 +80,7 @@
 .fondo-delivery-index{
     background-image: url(../img/portadas/fondo_banner_delivery.jpg);
     background-size: cover; 
-    height: 30vh; 
+    height: 40vh; 
     width: 100%;
 
 }
@@ -97,5 +90,10 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 3rem 0rem;
+    align-content: center;
     
 }
+
+#grad {
+    background-image:  linear-gradient($tortuga1, $tortuga2,  );
+  }

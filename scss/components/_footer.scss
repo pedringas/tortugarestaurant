@@ -3,6 +3,7 @@
     display: none;
    }
 
+
 }
 .fondo-footer{
     background-color: $tortuga2;
@@ -11,7 +12,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 5rem;
+   
 }
 ul{
     list-style: none;
@@ -22,4 +23,26 @@ ul{
 li{
     margin-top: 1rem;
 }
+.lineas2{
+    position: relative;
+    text-align: center;
+}
+.lineas::after {
+        content: '';
+        position: absolute;
+        left: calc(50% - 22px);
+        background: #ffffff;
+        width: 44px;
+        height: 100%;
+        z-index: -1;
+    }
+    .lineas::before {
+        content: '';
+        position: absolute;
+        left: calc(50% - 22px);
+        background: #ffffff;
+        width: 44px;
+        height: 100%;
+        z-index: -1;
+    }
 
