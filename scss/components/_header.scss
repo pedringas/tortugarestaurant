@@ -11,6 +11,7 @@
     .ocultar2{
         display: none;
     }
+   
 }
 
 
@@ -69,17 +70,34 @@ nav ul {
     align-items: center;
     margin-top: 40vh ;
     text-align: center;
-
+}
+.texto-header-index p{
+    color: $tortuga1;
 }
 
 .boton-header-index{
     margin-top: 70vh;
 }
+
+.boton-header-menu a{
+    color: $tortuga1;
+    border: 2px solid $tortuga1;
+    border-radius: 2rem;
+    padding: 0px 18px;
+    transition: all 0.5s;
+    background-color: $tortuga2;
+    &:hover{
+        background-color: $tortuga1;
+        color: $tortuga2;
+        border: 2px solid $tortuga2;
+        
+    }
+}
 .boton-header-index a{
     color: $tortuga1;
     border: 2px solid $tortuga1;
     border-radius: 2rem;
-    padding: 10px 15px;
+    padding: 0px 18px;
     transition: all 0.5s;
     background-color: $tortuga2;
     &:hover{
@@ -89,4 +107,8 @@ nav ul {
         
     }
 
+}
+.hero-menu{
+    background-color: $tortuga2;
+    height: 100vh;
 }

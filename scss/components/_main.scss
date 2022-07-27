@@ -94,6 +94,46 @@
     
 }
 
-#grad {
-    background-image:  linear-gradient($tortuga1, $tortuga2,  );
-  }
+.titulo-menu{
+    border-bottom: 2px solid $tortuga2;
+}
+.texto-menu{
+    padding: 3rem;
+    margin: 1rem 0rem;
+}
+.img-menu{
+    @extend %columnas;
+    
+}
+
+.fondo-menu{
+    background-color: $tortuga2;
+}
+.fondo-menu p{
+    color: $tortuga1;
+}
+.fondo-menu h3{
+    color: $tortuga1;
+}
+
+.fondo-menu h4{
+    color: $tortuga1;
+}
+.menu-box{
+    border: 2px solid $tortuga2;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    text-align: center;
+    max-width: 700px;
+    padding: 2rem;
+    
+}
+.menu-box2{
+    @extend %columnas2;
+    align-items: center;
+}
+.menu-tabla{
+    display: flex;
+    flex-direction: row;
+    
+}

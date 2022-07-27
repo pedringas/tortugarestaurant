@@ -1,3 +1,17 @@
+.img-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-box2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 @media screen and (min-width: 992px) {
   .ocultar {
     display: none;
@@ -70,15 +84,33 @@ nav ul {
   text-align: center;
 }
 
+.texto-header-index p {
+  color: white;
+}
+
 .boton-header-index {
   margin-top: 70vh;
+}
+
+.boton-header-menu a {
+  color: white;
+  border: 2px solid white;
+  border-radius: 2rem;
+  padding: 0px 18px;
+  transition: all 0.5s;
+  background-color: #061721;
+}
+.boton-header-menu a:hover {
+  background-color: white;
+  color: #061721;
+  border: 2px solid #061721;
 }
 
 .boton-header-index a {
   color: white;
   border: 2px solid white;
   border-radius: 2rem;
-  padding: 10px 15px;
+  padding: 0px 18px;
   transition: all 0.5s;
   background-color: #061721;
 }
@@ -86,6 +118,11 @@ nav ul {
   background-color: white;
   color: #061721;
   border: 2px solid #061721;
+}
+
+.hero-menu {
+  background-color: #061721;
+  height: 100vh;
 }
 
 body {
@@ -106,7 +143,7 @@ body h3 {
   font-size: 2rem;
 }
 body h4 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 body h5 {
   font-size: 1rem;
@@ -254,8 +291,61 @@ li {
   align-content: center;
 }
 
-#grad {
-  background-image: linear-gradient(white, #061721);
+.titulo-menu {
+  border-bottom: 2px solid #061721;
+}
+
+.texto-menu {
+  padding: 3rem;
+  margin: 1rem 0rem;
+}
+
+.fondo-menu {
+  background-color: #061721;
+}
+
+.fondo-menu p {
+  color: white;
+}
+
+.fondo-menu h3 {
+  color: white;
+}
+
+.fondo-menu h4 {
+  color: white;
+}
+
+.menu-box {
+  border: 2px solid #061721;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  text-align: center;
+  max-width: 700px;
+  padding: 2rem;
+}
+
+.menu-box2 {
+  align-items: center;
+}
+
+.menu-tabla {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-box2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
