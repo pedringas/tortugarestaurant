@@ -45,10 +45,10 @@ nav ul {
 }
 
 .nav-link {
-  color: white;
+  color: #ffff;
 }
 .nav-link:hover {
-  color: white;
+  color: #EDCFCF;
 }
 
 .nav-link:after {
@@ -56,7 +56,7 @@ nav ul {
   width: 0px;
   height: 2px;
   display: block;
-  background: white;
+  background: #EDCFCF;
   transition: 300ms;
 }
 
@@ -73,7 +73,7 @@ nav ul {
 }
 
 .offcanvas {
-  background-color: #061721;
+  background-color: #141D27;
 }
 
 .texto-header-index {
@@ -85,7 +85,7 @@ nav ul {
 }
 
 .texto-header-index p {
-  color: white;
+  color: #3F75B8;
 }
 
 .boton-header-index {
@@ -93,40 +93,56 @@ nav ul {
 }
 
 .boton-header-menu a {
-  color: white;
-  border: 2px solid white;
+  color: #ffff;
+  border: 2px solid #C73F29;
   border-radius: 2rem;
-  padding: 0px 18px;
+  padding: 10px 18px;
   transition: all 0.5s;
-  background-color: #061721;
+  background-color: #141D27;
 }
 .boton-header-menu a:hover {
-  background-color: white;
-  color: #061721;
-  border: 2px solid #061721;
+  background-color: #C73F29;
+  color: #ffff;
+  border: 2px solid #141D27;
 }
 
 .boton-header-index a {
-  color: white;
-  border: 2px solid white;
+  color: #ffff;
+  border: 2px solid #C73F29;
   border-radius: 2rem;
   padding: 0px 18px;
   transition: all 0.5s;
-  background-color: #061721;
+  background-color: #141D27;
 }
 .boton-header-index a:hover {
-  background-color: white;
-  color: #061721;
-  border: 2px solid #061721;
+  background-color: #C73F29;
+  color: #ffff;
+  border: 2px solid #ffff;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #C73F29;
+}
+
+.carousel-indicators .active {
+  background-color: #3F75B8;
 }
 
 .hero-menu {
-  background-color: #061721;
+  background-color: #141D27;
   height: 100vh;
 }
 
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
+
 body {
-  font-family: oldbook;
+  font-family: optician;
 }
 body a {
   text-decoration: none;
@@ -134,10 +150,12 @@ body a {
 }
 body h1 {
   font-size: 3rem;
-  color: white;
+  color: #ffff;
+  font-family: optician;
 }
 body h2 {
   font-size: 2.5rem;
+  font-family: copper;
 }
 body h3 {
   font-size: 2rem;
@@ -158,7 +176,7 @@ body h6 {
   }
 }
 .fondo-footer {
-  background-color: #061721;
+  background-color: #141D27;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -171,7 +189,7 @@ ul {
 }
 
 .fondo-footer li {
-  color: white;
+  color: #ffff;
 }
 
 li {
@@ -228,7 +246,7 @@ li {
 }
 
 .fondo-carta-index {
-  background-color: #061721;
+  background-color: #3F75B8;
   background-size: cover;
   height: 40vh;
   width: 100%;
@@ -240,22 +258,22 @@ li {
 }
 
 .texto-carta-index {
-  color: white;
+  color: #ffff;
   text-align: center;
 }
 
 .boton-carta-index a {
-  border: 2px solid white;
+  border: 2px solid #C73F29;
   border-radius: 2rem;
-  color: #061721;
-  background-color: white;
+  color: #ffff;
+  background-color: #141D27;
   padding: 10px 15px;
   transition: ease-out 0.5s;
 }
 .boton-carta-index a:hover {
-  border: 2px solid white;
-  color: white;
-  background-color: #061721;
+  border: 2px solid #ffff;
+  color: #ffff;
+  background-color: #C73F29;
 }
 
 .nosotros-index {
@@ -263,17 +281,17 @@ li {
 }
 
 .boton-main-index a {
-  color: white;
-  border: 2px solid white;
+  color: #ffff;
+  border: 2px solid #C73F29;
   border-radius: 2rem;
   padding: 10px 15px;
   transition: all 0.5s;
-  background-color: #061721;
+  background-color: #141D27;
 }
 .boton-main-index a:hover {
-  background-color: white;
-  color: #061721;
-  border: 2px solid #061721;
+  background-color: #C73F29;
+  color: #ffff;
+  border: 2px solid #ffff;
 }
 
 .fondo-delivery-index {
@@ -292,7 +310,7 @@ li {
 }
 
 .titulo-menu {
-  border-bottom: 2px solid #061721;
+  border-bottom: 2px solid #141D27;
 }
 
 .texto-menu {
@@ -301,23 +319,23 @@ li {
 }
 
 .fondo-menu {
-  background-color: #061721;
+  background-color: #141D27;
 }
 
 .fondo-menu p {
-  color: white;
+  color: #ffff;
 }
 
 .fondo-menu h3 {
-  color: white;
+  color: #ffff;
 }
 
 .fondo-menu h4 {
-  color: white;
+  color: #ffff;
 }
 
 .menu-box {
-  border: 2px solid #061721;
+  border: 2px solid #141D27;
   border-top-left-radius: 5rem;
   border-bottom-right-radius: 5rem;
   text-align: center;

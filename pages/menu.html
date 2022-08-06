@@ -21,10 +21,19 @@
 <body style="background-image: url(../img/portadas/fondo-textura-1.jpg);">
     <header class="hero-menu">
         <section>
-            <div class="container texto-header-index boton-header-menu fixed-top" style="align-items: flex-start ; text-align: left;" >
+            <div class="container texto-header-index fixed-top" style="align-items: flex-start ; text-align: left;" >
                 <h1>NUESTRO MENU</h1>
                 <p>CUINA CREATIVA</p>
-                <a href="">Descargar menú<img src="../img/iconos/flecha_derecha_blanca.png" alt="flecha" class="img-fluid" style="height:50px; width:50px"></a>
+                  <div class="btn-group dropend boton-header-menu">
+                    <a type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Descargar menú
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Español-Catalan</a></li>
+                      <li><a class="dropdown-item" href="#">Spanish-English</a></li>
+                      <li><a class="dropdown-item" href="#">Español-Frances</a></li>
+                    </ul>
+                  </div>
             </div>   
             <div class="container texto-header-index boton-header-index fixed-top"  style="align-items: flex-start; margin-top: 65vh ;">
                 
@@ -394,7 +403,7 @@
         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 <!-- Calendly link widget end -->
-
+        <script src="../js/index.js"></script>
         <script src="https://unpkg.com/typeit@8.6.6/dist/index.umd.js"></script>
         <script src="./js/index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

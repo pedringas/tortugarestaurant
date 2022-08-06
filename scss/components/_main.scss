@@ -29,7 +29,7 @@
     
 }
 .fondo-carta-index{
-    background-color: $tortuga2;
+    background-color: $tortugaC;
     background-size: cover; 
     height: 40vh; 
     width: 100%;
@@ -44,16 +44,16 @@
 }
 
 .boton-carta-index a{
-    border: 2px solid $tortuga1;
+    border: 2px solid $tortugaN;
     border-radius: 2rem;
-    color: $tortuga2;
-    background-color: $tortuga1;
+    color: $tortuga1;
+    background-color: $tortuga2;
     padding: 10px 15px;
     transition: ease-out 0.5s;
     &:hover{
     border: 2px solid $tortuga1;
     color: $tortuga1;
-    background-color: $tortuga2;
+    background-color: $tortugaN;
     }
 }
 
@@ -63,15 +63,15 @@
 
 .boton-main-index a{
     color: $tortuga1;
-    border: 2px solid $tortuga1;
+    border: 2px solid $tortugaN;
     border-radius: 2rem;
     padding: 10px 15px;
     transition: all 0.5s;
     background-color: $tortuga2;
     &:hover{
-        background-color: $tortuga1;
-        color: $tortuga2;
-        border: 2px solid $tortuga2;
+        background-color: $tortugaN;
+        color: $tortuga1    ;
+        border: 2px solid $tortuga1;
         
     }
 

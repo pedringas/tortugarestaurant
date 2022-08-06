@@ -6,12 +6,13 @@
     .ocultar{
         display: none;
     }
+
 }
 @media screen and (max-width: 992px) {
     .ocultar2{
         display: none;
     }
-   
+
 }
 
 
@@ -39,7 +40,7 @@ nav ul {
 .nav-link{
     color:$tortuga1;
     &:hover{
-        color: $tortuga1;
+        color: $tortugaR;
     }
 }
 .nav-link:after {
@@ -47,7 +48,7 @@ nav ul {
     width: 0px;
     height: 2px;
     display: block;
-    background: $tortuga1;
+    background: $tortugaR;
     transition: 300ms;
 }
 .nav-link:hover:after {
@@ -72,7 +73,7 @@ nav ul {
     text-align: center;
 }
 .texto-header-index p{
-    color: $tortuga1;
+    color: $tortugaC;
 }
 
 .boton-header-index{
@@ -81,34 +82,51 @@ nav ul {
 
 .boton-header-menu a{
     color: $tortuga1;
-    border: 2px solid $tortuga1;
+    border: 2px solid $tortugaN;
     border-radius: 2rem;
-    padding: 0px 18px;
+    padding: 10px 18px;
     transition: all 0.5s;
     background-color: $tortuga2;
     &:hover{
-        background-color: $tortuga1;
-        color: $tortuga2;
+        background-color: $tortugaN;
+        color: $tortuga1;
         border: 2px solid $tortuga2;
         
     }
 }
 .boton-header-index a{
     color: $tortuga1;
-    border: 2px solid $tortuga1;
+    border: 2px solid $tortugaN;
     border-radius: 2rem;
     padding: 0px 18px;
     transition: all 0.5s;
     background-color: $tortuga2;
     &:hover{
-        background-color: $tortuga1;
-        color: $tortuga2;
-        border: 2px solid $tortuga2;
+        background-color: $tortugaN;
+        color: $tortuga1;
+        border: 2px solid $tortuga1;
         
     }
 
 }
+
+.carousel-indicators [data-bs-target] {
+    background-color: $tortugaN;
+}
+.carousel-indicators .active{
+    background-color: $tortugaC;
+}
+
 .hero-menu{
     background-color: $tortuga2;
     height: 100vh;
 }
+
+.dropdown-menu{
+    background-color: transparent;
+}
+
+.dropdown-menu.show{
+    display: flex;
+}
+

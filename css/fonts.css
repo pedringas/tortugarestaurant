@@ -2,3 +2,16 @@
     font-family: oldbook;
     src: url(../fonts/Oldbook\ ITC\ Std\ Regular.otf);
 }
+
+@font-face {
+    font-family: optician;
+    src: url(../fonts/Optician-Sans.otf);
+}
+@font-face {
+    font-family: copper;
+    src: url(../fonts/OPTICopperplate-Light.otf);
+}
+@font-face {
+    font-family: collina;
+    src: url(../fonts/Collina-Regular.otf);
+}

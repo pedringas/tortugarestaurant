@@ -1,7 +1,7 @@
 @import "../base/variables";
 
 body{
-    font-family: oldbook;
+    font-family: optician;
     a{
         text-decoration: none;
         font-size: 1.2rem;
@@ -9,9 +9,11 @@ body{
     h1{
         font-size: 3rem;
         color: $tortuga1;
+        font-family: optician;
     }
     h2{
         font-size: 2.5rem;
+        font-family: copper;
     }
     h3{
         font-size: 2rem;
