@@ -1,5 +1,5 @@
 new TypeIt("#simpleUsage", {
-    strings: "Bienvenido a <br>TORTUGA",
+    strings: "Sigue a la <br>TORTUGA",
     speed: 70,
     waitUntilVisible: true,
   }).go();

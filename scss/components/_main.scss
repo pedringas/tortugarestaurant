@@ -13,9 +13,29 @@
 }
 @media screen and (max-width: 450px) {
     .texto-carta-index h2{
-        font-size: 20px;
+        font-size: 1.5rem;
     }
-
+    .boton-main-index h2{
+        font-size: 1.5rem;
+    }
+    .boton-header-index a{
+        padding: 5px 10px;
+    }
+    .boton-main-index a {
+        font-size: 1rem;
+    }
+    .boton-carta-index a{
+        font-size: 1rem;
+    }
+    .hover-underline-animation{
+        font-size: 1rem;
+    }
+    path, svg{
+        display: none;
+    }
+    .menu-box{
+        border: 0px solid;
+    }
 }
 
 .row{
@@ -43,36 +63,22 @@
     text-align: center;
 }
 
-.boton-carta-index a{
-    border: 2px solid $tortugaN;
-    border-radius: 2rem;
-    color: $tortuga1;
-    background-color: $tortuga2;
-    padding: 10px 15px;
-    transition: ease-out 0.5s;
-    &:hover{
-    border: 2px solid $tortuga1;
-    color: $tortuga1;
-    background-color: $tortugaN;
-    }
-}
 
 .nosotros-index{
     margin-top: 5rem;
 }
 
-.boton-main-index a{
-    color: $tortuga1;
-    border: 2px solid $tortugaN;
+.boton-main-index a {
+    border: 2px solid $tortuga2;
     border-radius: 2rem;
-    padding: 10px 15px;
-    transition: all 0.5s;
+    color: $tortuga1;
     background-color: $tortuga2;
+    padding: 15px 25px;
+    transition: all 0.5s;
     &:hover{
-        background-color: $tortugaN;
-        color: $tortuga1    ;
-        border: 2px solid $tortuga1;
-        
+    border: 2px solid $tortuga2;
+    color: $tortuga2;
+    background-color: $tortuga1;
     }
 
 }
@@ -135,5 +141,7 @@
 .menu-tabla{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
+

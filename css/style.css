@@ -16,9 +16,21 @@
   .ocultar {
     display: none;
   }
+
+  .boton-header-menu2 {
+    display: none;
+  }
+
+  .dropdown-menu.show {
+    display: flex;
+  }
 }
 @media screen and (max-width: 992px) {
   .ocultar2 {
+    display: none;
+  }
+
+  .boton-header-menu {
     display: none;
   }
 }
@@ -45,10 +57,11 @@ nav ul {
 }
 
 .nav-link {
+  font-size: 16px;
   color: #ffff;
 }
 .nav-link:hover {
-  color: #EDCFCF;
+  color: #C73F29;
 }
 
 .nav-link:after {
@@ -56,7 +69,7 @@ nav ul {
   width: 0px;
   height: 2px;
   display: block;
-  background: #EDCFCF;
+  background: #C73F29;
   transition: 300ms;
 }
 
@@ -79,6 +92,7 @@ nav ul {
 .texto-header-index {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 40vh;
   text-align: center;
@@ -96,7 +110,7 @@ nav ul {
   color: #ffff;
   border: 2px solid #C73F29;
   border-radius: 2rem;
-  padding: 10px 18px;
+  padding: 15px 25px;
   transition: all 0.5s;
   background-color: #141D27;
 }
@@ -106,18 +120,59 @@ nav ul {
   border: 2px solid #141D27;
 }
 
-.boton-header-index a {
+.boton-header-menu2 a {
   color: #ffff;
   border: 2px solid #C73F29;
   border-radius: 2rem;
-  padding: 0px 18px;
+  padding: 15px 25px;
   transition: all 0.5s;
   background-color: #141D27;
 }
-.boton-header-index a:hover {
+.boton-header-menu2 a:hover {
   background-color: #C73F29;
   color: #ffff;
-  border: 2px solid #ffff;
+  border: 2px solid #141D27;
+}
+
+.boton-header-index a {
+  color: #ffff;
+  border-radius: 2rem;
+  padding: 15px 25px;
+  transition: all 0.5s;
+  background-color: transparent;
+}
+.boton-header-index a:hover {
+  color: #C73F29;
+}
+.boton-header-index a::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #C73F29;
+  transition: 300ms;
+}
+.boton-header-index a:hover::after {
+  width: 90%;
+}
+
+/* Boton header index*/
+.cta span {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.cta img {
+  transform: translateX(5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover img {
+  transform: translateX(10px);
+}
+
+.cta:active img {
+  transform: scale(0.9);
 }
 
 .carousel-indicators [data-bs-target] {
@@ -135,10 +190,42 @@ nav ul {
 
 .dropdown-menu {
   background-color: transparent;
+  border: none;
 }
 
-.dropdown-menu.show {
-  display: flex;
+/* From uiverse.io by @Madflows */
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  border: none;
+  background: #141D27;
+  color: #ffff;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(82.3deg, #C73F29, #C73F29);
+  transition: all 0.475s;
 }
 
 body {
@@ -232,7 +319,35 @@ li {
 }
 @media screen and (max-width: 450px) {
   .texto-carta-index h2 {
-    font-size: 20px;
+    font-size: 1.5rem;
+  }
+
+  .boton-main-index h2 {
+    font-size: 1.5rem;
+  }
+
+  .boton-header-index a {
+    padding: 5px 10px;
+  }
+
+  .boton-main-index a {
+    font-size: 1rem;
+  }
+
+  .boton-carta-index a {
+    font-size: 1rem;
+  }
+
+  .hover-underline-animation {
+    font-size: 1rem;
+  }
+
+  path, svg {
+    display: none;
+  }
+
+  .menu-box {
+    border: 0px solid;
   }
 }
 .row {
@@ -262,36 +377,22 @@ li {
   text-align: center;
 }
 
-.boton-carta-index a {
-  border: 2px solid #C73F29;
-  border-radius: 2rem;
-  color: #ffff;
-  background-color: #141D27;
-  padding: 10px 15px;
-  transition: ease-out 0.5s;
-}
-.boton-carta-index a:hover {
-  border: 2px solid #ffff;
-  color: #ffff;
-  background-color: #C73F29;
-}
-
 .nosotros-index {
   margin-top: 5rem;
 }
 
 .boton-main-index a {
-  color: #ffff;
-  border: 2px solid #C73F29;
+  border: 2px solid #141D27;
   border-radius: 2rem;
-  padding: 10px 15px;
-  transition: all 0.5s;
+  color: #ffff;
   background-color: #141D27;
+  padding: 15px 25px;
+  transition: all 0.5s;
 }
 .boton-main-index a:hover {
-  background-color: #C73F29;
-  color: #ffff;
-  border: 2px solid #ffff;
+  border: 2px solid #141D27;
+  color: #141D27;
+  background-color: #ffff;
 }
 
 .fondo-delivery-index {
@@ -350,6 +451,7 @@ li {
 .menu-tabla {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .img-menu {
