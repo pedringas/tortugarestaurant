@@ -312,10 +312,6 @@ li {
   .texto-carta-index h2 {
     font-size: 30px;
   }
-
-  #titulo-carta {
-    display: none;
-  }
 }
 @media screen and (max-width: 450px) {
   .texto-carta-index h2 {
@@ -361,9 +357,10 @@ li {
 }
 
 .fondo-carta-index {
-  background-color: #3F75B8;
+  background-image: url(../../img/wave3.svg);
+  align-content: center !important;
   background-size: cover;
-  height: 40vh;
+  height: 80vh;
   width: 100%;
 }
 
@@ -378,7 +375,13 @@ li {
 }
 
 .nosotros-index {
+  min-height: 100vh;
   margin-top: 5rem;
+  background-color: #ffff;
+}
+
+.reservas-index {
+  background-color: #141D27;
 }
 
 .boton-main-index a {
@@ -396,9 +399,9 @@ li {
 }
 
 .fondo-delivery-index {
-  background-image: url(../img/portadas/fondo_banner_delivery.jpg);
+  background-image: url(../../img/portadas/wave3-01-01.png);
   background-size: cover;
-  height: 40vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -406,7 +409,6 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin: 3rem 0rem;
   align-content: center;
 }
 
@@ -452,6 +454,18 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+#comer {
+  color: #ffff;
+}
+
+#texto-reserva {
+  color: #ffff;
+}
+
+#boton-reserva {
+  border: 2px solid #C73F29;
 }
 
 .img-menu {

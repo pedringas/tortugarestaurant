@@ -110,7 +110,6 @@
       </div>
     </div>
   </nav>
-  
   <main class="container-fluid" style="padding: 0px;">
     <section class="row carta-index fondo-carta-index">
       <div class="col-lg-6 col-md-6 col-12 texto-carta-index">
@@ -122,7 +121,7 @@
       </button>
       </div>
     </section>
-    <section class="container nosotros-index" >
+    <section class="container-fluid nosotros-index"  >
       <div class="row" style="align-items:center;">
         <div class="col-lg-6 col-md-6 col-12 boton-main-index" style="padding: 2rem;">
           <h2>NUESTRO RESTAURANT</h2>
@@ -157,29 +156,26 @@
         
       </div>
     </section>
-    <section>
+    <section class="">
       <section class=" row delivery-index fondo-delivery-index">
-        <div class="col-lg-4 col-md-4 texto-carta-index">
-          <h3 id="titulo-carta">PEDÍ QUE TE LO LLEVAMOS</h3>
+        <div class="col-lg-6 col-md-6 col-12 texto-carta-index">
+          <h3 id="titulo-carta">PEDI QUE TE LO LLEVAMOS</h3>
         </div>
-        <div class="col-lg-4 col-md-4 col-6 boton-carta-index">
-          <img src="./img/iconos/fast-delivery.png" style="height: 100px; width:100px;" class="img-fluid" alt="delivery">
-        </div>
-        <div class="col-lg-4 col-md-4 col-6 boton-carta-index">
+        
+        <div class="col-lg-6 col-md-6 col-12 boton-carta-index">
           <button class="button cta">
             <span class="button-content">IR A GLOVO </span>
         </button>
         </div>
-
       </section>
     </section>
-    <section class="container-fluid nosotros-index" id="grad" >
+    <section class="container-fluid reservas-index" id="grad" >
       <div class="row" >
         <div class="col-lg-6 col-md-6 col-12 boton-main-index" style="padding: 2rem;">
-          <h2>COMER EN TORTUGA</h2>
-          <p style="margin-bottom:2rem;">Visita nuestro restaurant de la ciudad de Barcelona cuando gustes. Realiza una reserva y no te quedes sin tu lugar. TE ESPERAMOS !
+          <h2 id="comer">COMER EN TORTUGA</h2>
+          <p id="texto-reserva" style="margin-bottom:2rem;">Visita nuestro restaurant de la ciudad de Barcelona cuando gustes. Realiza una reserva y no te quedes sin tu lugar. TE ESPERAMOS !
           </p>
-          <button class="button cta">
+          <button class="button cta" id="boton-reserva">
             <span href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nnabis-1/30min'});return false;" class="button-content">Haz una reserva <img src="./img/iconos/flecha_derecha_blanca2.png" alt="flecha" class="img-fluid" style="height:20px; width:20px;"></span>
         </button>
         </div >
