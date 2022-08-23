@@ -46,7 +46,7 @@
     
 }
 .fondo-carta-index{
-    background-image:url(../../img/wave3.svg);
+    background-image:url(../img/wave3.svg);
     align-content: center !important;
     background-size: cover; 
     height: 80vh; 
@@ -87,7 +87,7 @@
 }
 
 .fondo-delivery-index{
-    background-image: url(../../img/portadas/wave3-01-01.png);
+    background-image: url(../img/portadas/wave3-01-01.png);
     background-size: cover; 
     height: 100vh; 
     width: 100%;
@@ -156,5 +156,5 @@
 }
 
 #boton-reserva{
-    border: 2px solid $tortugaN;
+    border: 1px solid $tortugaN;
 }
