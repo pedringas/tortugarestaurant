@@ -467,6 +467,9 @@ li {
 #boton-reserva {
   border: 1px solid #C73F29;
 }
+#boton-reserva:hover {
+  border: 1px solid #141D27;
+}
 
 .img-menu {
   display: flex;

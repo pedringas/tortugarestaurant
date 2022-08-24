@@ -157,4 +157,7 @@
 
 #boton-reserva{
     border: 1px solid $tortugaN;
+    &:hover{
+        border:1px solid $tortuga2;
+    }
 }
