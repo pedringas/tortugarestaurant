@@ -4,8 +4,8 @@ jQuery(document).ready(function($){
 		projectsPreviewWrapper = projectsContainer.find('.cd-projects-previews'),
 		projectPreviews = projectsPreviewWrapper.children('li'),
 		projects = projectsContainer.find('.cd-projects'),
-		navigationTrigger = $('.cd-nav-trigger'),
-		navigation = $('.cd-primary-nav'),
+		navigationTrigger = $('.back'),
+		navigation = $('.cd-projects-container'),
 		//if browser doesn't support CSS transitions...
 		transitionsNotSupported = ( $('.no-csstransitions').length > 0);
 
@@ -41,7 +41,10 @@ jQuery(document).ready(function($){
 				else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, false);
 			} else {
 				//open main navigation
-				
+				navigationTrigger.addClass('nav-visible');
+				navigation.addClass('nav-visible');
+				if(transitionsNotSupported) projectPreviews.addClass('slide-out');
+				else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, true);
 			}
 		}	
 
