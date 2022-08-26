@@ -195,7 +195,7 @@ Projects
   pointer-events: none;
 }
 .cd-projects-previews li {
-  height: 25%;
+  height: 35%;
   width: 100%;
   overflow: hidden;
   -webkit-transition: -webkit-transform 0.5s;
