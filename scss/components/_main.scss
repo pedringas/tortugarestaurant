@@ -46,7 +46,7 @@
     
 }
 .fondo-carta-index{
-    background-image:url(../img/wave3.svg);
+    background-image:url(../img/portadas/wave3.svg);
     align-content: center !important;
     background-size: cover; 
     height: 80vh; 
@@ -159,5 +159,12 @@
     &:hover{
         border:1px solid $tortuga2;
     }
+
+
+}
+
+.ondas-nosotros{
+    background-image: url(../../img/portadas/ondas-rosa-01.png) no-repeat;
+    height: 50vh;
 }
 

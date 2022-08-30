@@ -179,6 +179,10 @@ nav ul {
     background-color: $tortuga2;
     height: 100vh;
 }
+.hero-menu-nosotros{
+    background-color: $tortugaR;
+    height: 100vh;
+}
 
 .dropdown-menu{
     background-color: transparent;
@@ -224,3 +228,6 @@ nav ul {
     transition: all 0.475s;
   }
 
+  #titulo-nosotros{
+    color: $tortugaC;
+  }

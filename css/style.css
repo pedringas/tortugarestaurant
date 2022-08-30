@@ -188,6 +188,11 @@ nav ul {
   height: 100vh;
 }
 
+.hero-menu-nosotros {
+  background-color: #EDCFCF;
+  height: 100vh;
+}
+
 .dropdown-menu {
   background-color: transparent;
   border: none;
@@ -226,6 +231,10 @@ nav ul {
   border-radius: inherit;
   background: linear-gradient(82.3deg, #C73F29, #C73F29);
   transition: all 0.475s;
+}
+
+#titulo-nosotros {
+  color: #3F75B8;
 }
 
 body {
@@ -357,7 +366,7 @@ li {
 }
 
 .fondo-carta-index {
-  background-image: url(../img/wave3.svg);
+  background-image: url(../img/portadas/wave3.svg);
   align-content: center !important;
   background-size: cover;
   height: 80vh;
@@ -468,6 +477,11 @@ li {
 }
 #boton-reserva:hover {
   border: 1px solid #141D27;
+}
+
+.ondas-nosotros {
+  background-image: url(../../img/portadas/ondas-rosa-01.png) no-repeat;
+  height: 50vh;
 }
 
 .img-menu {
