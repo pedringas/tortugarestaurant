@@ -480,8 +480,80 @@ li {
 }
 
 .ondas-nosotros {
-  background-image: url(../../img/portadas/ondas-rosa-01.png) no-repeat;
-  height: 50vh;
+  position: relative;
+}
+
+.sobre-nosotros {
+  background-image: url(../../img/portadas/fondo-nosotros.png);
+  justify-content: center;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  min-height: 80vh;
+  margin-top: 30vh;
+}
+
+.sobre-nosotros div {
+  color: #ffff;
+  margin: 5rem 1rem;
+}
+
+.sobre-nosotros img {
+  margin: 1rem 0rem;
+}
+
+.sobre-nosotros-texto {
+  position: relative;
+  z-index: 1;
+  max-width: 400px;
+  align-items: center;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.section-bg {
+  background-size: cover;
+  position: relative;
+  background-position: left;
+  z-index: 0;
+  padding: 0;
+  min-height: auto;
+  overflow: hidden;
+}
+
+.wrapper img {
+  position: relative;
+  max-width: 100%;
+}
+
+.dashed-box {
+  position: relative;
+  z-index: 1;
+  border: dashed;
+  height: 8em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+.gold-box {
+  position: absolute;
+  z-index: 3;
+  /* put .gold-box above .green-box and .dashed-box */
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2;
+  /* put .green-box above .dashed-box */
+  background: lightgreen;
+  width: 20%;
+  left: 65%;
+  top: -25px;
+  height: 7em;
+  opacity: 0.9;
 }
 
 .img-menu {
