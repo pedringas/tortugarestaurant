@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style2.css">
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
-    <link rel="shortcut icon" href="../img/logos/tortuga logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logos/Logotipo Tortuga_2.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/fonts.css">
     <script type='text/javascript' src=''></script>
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
@@ -30,6 +30,7 @@
     
 </head>
 <body oncontextmenu='return false' class='snippet-body'>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../img/iconos/flecha_Arriba-01.png" style="height: 50px; width: 50px" alt="scroll_top"></button>
     <header class="hero-menu">
         <section >
             <div class="container texto-header-index fixed-top" style="align-items: flex-start ; text-align: left;" >
@@ -63,11 +64,11 @@
     </header>
     <nav class="container navbar navbar-expand-lg navbar-light2 fixed-top" >
         <div class="container-fluid">
-            <a href="#"><img src="../img/logos/tortuga logo.png" class="img-fluid navbar-brand" style="height: 100px; width: 100px;"  alt="logo tortuga"></a>
+            <a href="#"><img src="../img/logos/tortuga logo.png" class="img-fluid navbar-brand" style="height: 50px; width: 150px;"  alt="logo tortuga"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -994,8 +995,7 @@
         <footer class="container-fluid fondo-footer" >
           <section class="row ">
             <ul class=" col-lg-12 col-md-12 col-12">
-              <li><a href="#"><img src="../img/logos/tortuga logo.png" class="img-fluid" style="height:100px; width:100px;" alt="logo tortuga"></a></li>
-              <li><img id="img-footer" src="../img/iconos/footer lineas.png" class="img-fluid" alt="linea">
+              <li><a href="#"><img src="../img/logos/tortuga logo.png" class="img-fluid" style="height: 60%; width: 60%;" alt="logo tortuga"></a></li>
               <li >
                 <div>
                   <div>
@@ -1024,5 +1024,24 @@
 <script src="../js/jquery-2.1.1.js"></script>
 <script type='text/javascript'></script>
 <script src="../js/main.js"></script>
+<script>// Get the button:
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }</script>
 </body>
 </html>

@@ -107,6 +107,13 @@ Menu trigger
 .cd-nav-trigger.project-open .cd-icon::before, .cd-nav-trigger.project-open .cd-icon::after {
   background-color: white;
 }
+.project-open a{
+  color: #ffff;
+}
+.project-open a:hover{
+  color: #EDCFCF;
+}
+
 .cd-nav-trigger.project-open .cd-icon::before {
   -webkit-transform: translateY(0) rotate(45deg);
   -moz-transform: translateY(0) rotate(45deg);

@@ -10,15 +10,38 @@
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/logos/tortuga logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/logos/Logotipo Tortuga_2.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
     <meta name="description" content="Tortuga restaurant es un establecimiento gastronomico que ofrece comida fusion, buscando combinar los salbores de comidas tipicas o caseras con la fusion gourmet. Restaurante reconocido de la ciudad de Barcelona, España y conocido por sus sabores que mezclan tradicion con vanguardia.">
     <meta name="keywords" content="restaurant, Restaurante, comida, fusion, gastronomia, gastronomico, barcelona, españa, europa, gastronomia española, directo al paladar">
-    
+    <style type="text/css">
+      .thefork{
+      width: 100%;
+      border:none;
+      overflow: scroll;
+      }
+      /* Media queries widget */ 
+      @media only screen and (max-width : 320px) { 
+          .thefork{
+          min-height: 840px;
+          }
+      }
+      @media only screen and (min-width : 321px) and (max-width : 516px){
+          .thefork{
+          min-height: 650px; 
+          }
+      }
+      @media only screen and (min-width : 517px) { 
+          .thefork{
+          min-height: 550px; 
+          }
+      }
+      </style>
 </head>
-<body>
+<body style="background-color: #ffff ;">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./img/iconos/flecha_Arriba-01.png" style="height: 50px; width: 50px" alt="scroll_top"></button>
     <header >
       <section>
         <div class="container-fluid texto-header-index fixed-top" >
@@ -60,7 +83,7 @@
   </header> 
   <nav class="container navbar navbar-expand-lg navbar-light2 fixed-top">
     <div class="container-fluid">
-      <a href="#"><img src="./img/logos/tortuga logo.png" class="img-fluid navbar-brand" style="height: 100px; width: 100px;"  alt="logo tortuga"></a>
+      <a href="#"><img src="./img/logos/tortuga logo.png" class="img-fluid navbar-brand" style="height: 50px; width: 150px;"  alt="logo tortuga"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -170,17 +193,17 @@
       </section>
     </section>
     <section class="container-fluid reservas-index" id="grad" >
-      <div class="row" >
-        <div class="col-lg-6 col-md-6 col-12 boton-main-index" style="padding: 2rem;">
+      <div class="row" style="justify-content:center;">
+        <div class="col-lg-6 col-md-6 col-12 boton-main-index" id="comer"  style="padding: 2rem;">
           <h2 id="comer">COMER EN TORTUGA</h2>
           <p id="texto-reserva" style="margin-bottom:2rem;">Visita nuestro restaurant de la ciudad de Barcelona cuando gustes. Realiza una reserva y no te quedes sin tu lugar. TE ESPERAMOS !
           </p>
           <button class="button cta" id="boton-reserva">
-            <span href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nnabis-1/30min'});return false;" class="button-content">Haz una reserva <img src="./img/iconos/flecha_derecha_blanca2.png" alt="flecha" class="img-fluid" style="height:20px; width:20px;"></span>
+            <span href="" onclick="Calendly.initPopupWidget({url: 'https://module.lafourchette.com/es_ES/module/719761-c9155 '});return false;" class="button-content">Haz una reserva <img src="./img/iconos/flecha_derecha_blanca2.png" alt="flecha" class="img-fluid" style="height:20px; width:20px;"></span>
         </button>
         </div >
-          <div class="col-lg-6 col-md-6 col-12"  >
-            <img src="./img/galeria de imagenes/celu-mano.png" class="img-fluid" alt="celular mano">
+          <div class="col-lg-6 col-md-6 col-12">
+              <img src="./img/galeria de imagenes/celu-mano.png" alt="mano-celu" class="img-fluid">
           </div>
     </section>
   </main>
@@ -188,8 +211,7 @@
         <footer class="container-fluid fondo-footer" >
           <section class="row ">
             <ul class=" col-lg-12 col-md-12 col-12">
-              <li><a href="#"><img src="./img/logos/tortuga logo.png" class="img-fluid" style="height:100px; width:100px;" alt="logo tortuga"></a></li>
-               <!---<li><img id="img-footer" src="./img/iconos/footer lineas.png" class="img-fluid" alt="linea">-->
+              <li><a href="#"><img src="./img/logos/tortuga logo.png" class="img-fluid" style="height: 60%; width: 60%;" alt="logo tortuga"></a></li>
               <li >
                 <div>
                   <div>
@@ -215,5 +237,24 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script> 
 <script type="text/javascript" src="script.js"></script>
+<script>// Get the button:
+  let mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }</script>
 </body>
 </html>

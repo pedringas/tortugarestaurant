@@ -6,6 +6,9 @@
     .texto-carta-index h2{
         font-size: 30px;
     }
+    .sobre-nosotros img{
+        display: none;
+    }
 
 }
 @media screen and (max-width: 450px) {
@@ -84,6 +87,9 @@
     background-color: $tortuga1;
     }
 
+}
+#comer{
+    max-width: 400px;
 }
 
 .fondo-delivery-index{
@@ -180,12 +186,17 @@
 
 .sobre-nosotros div{
     color: $tortuga1;
-    margin: 5rem 1rem;
+    margin: 1rem  1rem;
 }
 .sobre-nosotros img{
     margin: 1rem 0rem;
 }
 .sobre-nosotros-texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
     position: relative;
     z-index: 1;
     max-width: 400px;
@@ -193,6 +204,11 @@
 }
 .container-fluid{
     padding: 0px;
+}
+.sobre-nosotros h2{
+    margin: 10rem 2rem;
+    text-align: center;
+
 }
 
 .section-bg {
@@ -236,4 +252,26 @@
     top: -25px;
     height: 7em;
     opacity: 0.9;
+  }
+
+#titulo-nosotros{
+    color: $tortugaN;
+    text-align: center;
+}
+  
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
+  #color-texto{
+    color: $tortugaN;
+    margin: 1rem;
+    font-family: collina !important;
+  }
+
+  .body .body-content {
+    background-color: $tortugaN;
   }

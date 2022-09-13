@@ -15,3 +15,7 @@
     font-family: collina;
     src: url(../fonts/Collina-Regular.otf);
 }
+@font-face {
+    font-family: gotham;
+    src: url(../fonts/26023618743.ttf);
+}
