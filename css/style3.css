@@ -1,0 +1,25 @@
+.accordion{
+    --bs-accordion-bg: #3F75B8;
+    --bs-accordion-active-color:#C73F29; 
+    --bs-accordion-border-color: #EDCFCF;
+}
+
+.accordion-button{
+    color: white;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #EDCFCF;
+}
+
+.accordion-item{
+    color: white;
+}
+
+.accordion-body{
+    background-color: #141D27 ;
+}
+
+.accordion-button:focus{
+    border-color:#C73F29 ;
+}

@@ -183,6 +183,10 @@ nav ul {
     background-color: $tortugaR;
     height: 100vh;
 }
+.hero-menu-contacto{
+    background-color: $tortugaC;
+    height: 100vh;
+}
 
 .dropdown-menu{
     background-color: transparent;
@@ -191,6 +195,16 @@ nav ul {
 
 /* From uiverse.io by @Madflows */
 .button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    border: none;
+    background: $tortuga2;
+    color: $tortuga1;
+  }
+  .button input {
     position: relative;
     overflow: hidden;
     height: 3rem;
@@ -230,4 +244,7 @@ nav ul {
 
   #titulo-nosotros{
     color: $tortugaC;
+  }
+  .titulo-contacto{
+    color: $tortuga1;
   }

@@ -193,6 +193,11 @@ nav ul {
   height: 100vh;
 }
 
+.hero-menu-contacto {
+  background-color: #3F75B8;
+  height: 100vh;
+}
+
 .dropdown-menu {
   background-color: transparent;
   border: none;
@@ -200,6 +205,17 @@ nav ul {
 
 /* From uiverse.io by @Madflows */
 .button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  border: none;
+  background: #141D27;
+  color: #ffff;
+}
+
+.button input {
   position: relative;
   overflow: hidden;
   height: 3rem;
@@ -235,6 +251,10 @@ nav ul {
 
 #titulo-nosotros {
   color: #3F75B8;
+}
+
+.titulo-contacto {
+  color: #ffff;
 }
 
 body {
@@ -459,6 +479,10 @@ li {
   max-width: 400px;
 }
 
+#mensaje {
+  height: 100px;
+}
+
 .fondo-delivery-index {
   background-image: url(../img/portadas/wave3-01-01.png);
   background-size: cover;
@@ -637,6 +661,165 @@ li {
 
 .body .body-content {
   background-color: #C73F29;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.background {
+  display: flex;
+  min-height: 100vh;
+  margin-top: 50vh;
+}
+
+.screen {
+  position: relative;
+  background: #EDCFCF;
+  border-radius: 15px;
+}
+
+.screen:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.screen-body {
+  display: flex;
+  align-items: center;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #3F75B8;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #C73F29;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #141D27;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #141D27;
+  color: #141D27;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.app-form-control::placeholder {
+  color: #141D27;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #C73F29;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #C73F29;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: #3F75B8;
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
+.banner-contacto {
+  background-color: #141D27;
+  padding: 10rem 0rem;
+}
+
+.banner-contacto H3, h4 {
+  margin: 3rem 0rem;
+  color: #ffff;
+  text-align: center;
 }
 
 .img-menu {
