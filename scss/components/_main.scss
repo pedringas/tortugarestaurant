@@ -9,6 +9,9 @@
     .sobre-nosotros img{
         display: none;
     }
+    #titulo-reserva{
+      font-size: 2rem;
+    }
 
 }
 @media screen and (max-width: 450px) {
@@ -71,7 +74,14 @@
     background-color: $tortuga1;
 }
 .reservas-index{
-    background-color: $tortuga2;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background-image: url(../../img/portadas/ondas-naranja-azul-01.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $tortuga2;
+  height: 110vh;
 }
 
 .boton-main-index a {
@@ -121,7 +131,9 @@
     @extend %columnas;
     
 }
-
+#titulo-carta{
+  margin: 2rem 0rem;
+}
 .fondo-menu{
     background-color: $tortuga2;
 }
@@ -398,6 +410,7 @@
   .app-form-button:hover {
     color: $tortugaC;
   }
+
   
  
   @media screen and (max-width: 520px) {
@@ -442,4 +455,21 @@
     text-align: center;
   }
 
-  
+#contactanos{
+  color: $tortuga2;
+}
+
+.frame-reserva{
+  margin-top: 50vh;
+
+}
+.frame-reserva h2{
+  font-family: optician;
+  text-align: center;
+  color: $tortugaN;
+  margin: 10rem 0rem;
+}
+
+.frame-reserva h5{
+  text-align: center;
+}

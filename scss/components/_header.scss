@@ -148,9 +148,10 @@ nav ul {
 /* Boton header index*/
 
    
-   .cta span{
+   .cta a{
     letter-spacing: 4px;
     text-transform: uppercase;
+    color: $tortuga1;
    }
    
    .cta img {
@@ -185,6 +186,10 @@ nav ul {
 }
 .hero-menu-contacto{
     background-color: $tortugaC;
+    height: 100vh;
+}
+.hero-menu-reserva{
+    background-color: $tortuga2;
     height: 100vh;
 }
 
@@ -247,4 +252,10 @@ nav ul {
   }
   .titulo-contacto{
     color: $tortuga1;
+  }
+  #titulo-reserva{
+    color: $tortugaR;
+  }
+  #subtitulo-reserva{
+    color: $tortugaC;
   }
