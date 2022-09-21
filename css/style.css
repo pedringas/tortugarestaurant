@@ -906,6 +906,16 @@ li {
   align-items: center;
 }
 
+.item {
+  display: flex;
+  background: #C73F29;
+  height: 10rem;
+}
+
+.owl-container {
+  max-width: 900px;
+}
+
 .img-menu {
   display: flex;
   flex-direction: row;

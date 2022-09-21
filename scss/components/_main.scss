@@ -507,3 +507,13 @@
   flex-direction: column;
   align-items: center;
 }
+
+.item{
+  display: flex;
+  background: $tortugaN;
+  height: 10rem;
+}
+
+.owl-container{
+  max-width: 900px;
+}
