@@ -33,7 +33,7 @@
     <meta name="keywords" content="restaurant, Restaurante, comida, fusion, gastronomia, gastronomico, barcelona, españa, europa, gastronomia española, directo al paladar">
     
 </head>
-<body oncontextmenu='return false' class='snippet-body' style="background-color: white;">
+<body oncontextmenu='return false' class='snippet-body' style="background-color: white;" >
     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../img/iconos/flecha_Arriba-01.png" style="height: 50px; width: 50px" alt="scroll_top"></button>
     <header class="hero-menu">
         <section >
@@ -125,7 +125,98 @@
     <main class="main-menu">
         <section class="destacados-menu container">
             <h2>DESTACADOS DE NUESTRO MENU</h2>
-            
+            <div class="owl-container row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item column" style="width: 400px; margin-right:0px  ;"> <img src="../img/Parfait de Citricos.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-fluid"> </div>
+                    <div class="item column"  style="width: 400px; margin-right:0px ;" > <img src="../img/Donburi Salmon.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow img-fluid">  </div>
+                    <div class="item column"  style="width: 400px; margin-right:0px ;"><img src="../img/Set 2.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow img-fluid"> </div>
+                    <div class="item column"  style="width: 400px; margin-right:0px ;"> <img src="../img/TORTUGA Barra.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow img-fluid"></div>
+                    <div class="item column"  style="width: 400px; margin-right:0px ;"> <img src="../img/Story 16_9.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow img-fluid"></div>
+                    <div class="item column"  style="width: 400px; margin-right:0px ;"> <img src="../img/portadas/73947.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow img-fluid"> </div>
+                    <div class="item column"  style="width: 400px; margin-right:0px ;"> <img src="../img/portadas/portada_index_1.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow img-fluid"> </div>
+                </div>
+            </div>
+                    <!-- Images used to open the lightbox -->
+                
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 7</div>
+                        <img src="../img/Parfait de Citricos1.png" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>PARFAIT DE CITRICOS</h5>
+                          <p>Postre elaborado a base de biscochuelo de malta con limon, narnja y mandarina.</p>
+                        </div>
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 7</div>
+                        <img src="../img/Parfait de Citricos.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 7</div>
+                        <img src="../img/Parfait de Citricos.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 7</div>
+                        <img src="../img/Parfait de Citricos.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 7</div>
+                        <img src="../img/Parfait de Citricos.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 7</div>
+                        <img src="../img/Parfait de Citricos.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 7</div>
+                        <img src="../img/Parfait de Citricos.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                    <!-- Caption text -->
+
+                
+                    <!-- Thumbnail image controls -->
+                    
+                    </div>
+                </div>
         </section>
         
         <section class="wave-carta" >
@@ -715,17 +806,7 @@
         </section>
     </main>
     <section>
-        <div class="owl-container">
-            <div class="owl-carousel owl-theme">
-                <div class="item"> <img src="../img/Parfait de Citricos.jpg" alt=""> </div>
-                <div class="item"> <h4>2</h4> </div>
-                <div class="item"> <h4>3</h4></div>
-                <div class="item"> <h4>4</h4></div>
-                <div class="item"> <h4>5</h4> </div>
-                <div class="item"> <h4>6</h4> </div>
-                <div class="item"> <h4>7</h4> </div>
-            </div>
-        </div>
+        
     </section>
     
     
