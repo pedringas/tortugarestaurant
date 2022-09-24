@@ -408,7 +408,6 @@ li {
 @media screen and (max-width: 992px) {
   .texto-carta-index h2 {
     font-size: 30px;
-    color: #EDCFCF;
   }
 
   .destacados-menu {
@@ -484,7 +483,7 @@ li {
 }
 
 .texto-carta-index {
-  color: #ffff;
+  color: #141D27;
   text-align: center;
 }
 
