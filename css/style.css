@@ -465,7 +465,7 @@ li {
 }
 
 .fondo-carta-index {
-  background-image: url(../../img/portadas/ondasnuevo.svg);
+  background-image: url(../img/portadas/ondasnuevo.svg);
   align-content: center !important;
   background-size: cover;
   height: 50vh;
