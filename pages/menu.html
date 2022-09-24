@@ -124,16 +124,37 @@
       
     <main class="main-menu">
         <section class="destacados-menu container">
-            <h2>DESTACADOS DE NUESTRO MENU</h2>
+            <h2>LOS MAS ELEGIDOS POR NUESTROS CLIENTES</h2>
+            <div id="carouselExampleIndicators" class="carousel slide menu-mobile" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/Donburi Salmon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/Donburi Salmon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/Donburi Salmon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             <div class="owl-container row">
                 <div class="owl-carousel owl-theme">
-                    <div class="item column" style="width: 400px; margin-right:0px  ;"> <img src="../img/Parfait de Citricos.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-fluid"> </div>
-                    <div class="item column"  style="width: 400px; margin-right:0px ;" > <img src="../img/Donburi Salmon.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow img-fluid">  </div>
-                    <div class="item column"  style="width: 400px; margin-right:0px ;"><img src="../img/Set 2.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow img-fluid"> </div>
-                    <div class="item column"  style="width: 400px; margin-right:0px ;"> <img src="../img/TORTUGA Barra.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow img-fluid"></div>
-                    <div class="item column"  style="width: 400px; margin-right:0px ;"> <img src="../img/Story 16_9.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow img-fluid"></div>
-                    <div class="item column"  style="width: 400px; margin-right:0px ;"> <img src="../img/portadas/73947.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow img-fluid"> </div>
-                    <div class="item column"  style="width: 400px; margin-right:0px ;"> <img src="../img/portadas/portada_index_1.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow img-fluid"> </div>
+                    <div class="item column" style="width: 400px; margin-right:0px!important  ;"> <img src="../img/Parfait de Citricos.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-fluid"> </div>
+                    <div class="item column"  style="width: 400px; margin-right:0px!important ;" > <img src="../img/Donburi Salmon.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow img-fluid">  </div>
+                    <div class="item column"  style="width: 500px; margin-right:0px!important ;"><img src="../img/Set 2.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow img-fluid"> </div>
+                    <div class="item column"  style="width: 400px; margin-right:0px!important ;"> <img src="../img/TORTUGA Barra.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow img-fluid"></div>
+                    <div class="item column"  style="width: 400px; margin-right:0px!important ;"> <img src="../img/Story 16_9.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow img-fluid"></div>
+                    <div class="item column"  style="width: 400px; margin-right:0px!important ;"> <img src="../img/portadas/73947.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow img-fluid"> </div>
+                    <div class="item column"  style="width: 400px; margin-right:0px!important ;"> <img src="../img/portadas/portada_index_1.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow img-fluid"> </div>
                 </div>
             </div>
                     <!-- Images used to open the lightbox -->
@@ -217,9 +238,14 @@
                     
                     </div>
                 </div>
+                
         </section>
+       
+            
+        
         
         <section class="wave-carta" >
+            <h2 id="titulo-menu">DESCUBRE NUESTRO MENU</h2>
             <div class="cd-projects-container " >		
                 <ul class="cd-projects-previews">
                     <li>

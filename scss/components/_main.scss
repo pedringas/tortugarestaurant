@@ -1,10 +1,16 @@
 
 @media screen and (min-width: 992px) {
+  .menu-mobile{
+    display: none;
+  }
     
 }
 @media screen and (max-width: 992px) {
     .texto-carta-index h2{
         font-size: 30px;
+    }
+    .destacados-menu{
+      margin: 10rem 0rem 5rem 0rem !important;
     }
     .sobre-nosotros img{
         display: none;
@@ -275,7 +281,7 @@
     margin-top: 2em;
   }
   .gold-box {
-    position: absolute;
+    position: relative;
     z-index: 3; /* put .gold-box above .green-box and .dashed-box */
 
   }
@@ -480,10 +486,7 @@
   color: $tortuga2;
 }
 
-.frame-reserva{
-  margin-top: 50vh;
 
-}
 .frame-reserva h2{
   font-family: optician;
   text-align: center;
@@ -493,6 +496,9 @@
 
 .frame-reserva h5{
   text-align: center;
+  font-family: gotham;
+  font-size: 2rem;
+  color: $tortugaC;
 }
 
 
@@ -662,4 +668,12 @@ img.hover-shadow {
   font-weight: bold;
   color: $tortuga1;
 }
+
+#titulo-menu{
+  text-align: center;
+  color: $tortugaC;
+  margin-bottom: 5rem;
+}
+
+
 
