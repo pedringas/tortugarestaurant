@@ -1,4 +1,9 @@
 @import "../base/variables";
+@media screen and (max-width: 992px) {
+    h1, h2, h3, h4, h5{
+        font-size: smaller;
+    }
+}
 
 body{
     font-family: gotham;

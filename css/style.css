@@ -271,6 +271,11 @@ nav ul {
   color: #3F75B8;
 }
 
+@media screen and (max-width: 992px) {
+  h1, h2, h3, h4, h5 {
+    font-size: smaller;
+  }
+}
 body {
   font-family: gotham;
   background-color: #141D27;
@@ -403,6 +408,7 @@ li {
 @media screen and (max-width: 992px) {
   .texto-carta-index h2 {
     font-size: 30px;
+    color: #EDCFCF;
   }
 
   .destacados-menu {
