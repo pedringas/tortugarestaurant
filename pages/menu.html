@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="owl.carousel.min.css">
     <link rel="stylesheet" href="owl.theme.default.min.css">
     <link rel="icon" type="image/x-icon" href="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -37,7 +38,7 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../img/iconos/flecha_Arriba-01.png" style="height: 50px; width: 50px" alt="scroll_top"></button>
     <header class="hero-menu">
         <section >
-            <div class="container texto-header-index fixed-top" style="align-items: flex-start ; text-align: left;" >
+            <div class="container texto-header-index fixed-top" style="align-items: flex-start ; text-align: left;"  data-aos="fade-up">
                 <h1>NUESTRO MENU</h1>
                 <p>CUINA CREATIVA</p>
                   <div class="btn-group dropend boton-header-menu">
@@ -61,7 +62,7 @@
                     </ul>
                   </div>
             </div>           
-            <div class="container texto-header-index fixed-top " style="margin-top: 85vh ;">
+            <div class="container texto-header-index fixed-top " style="margin-top: 85vh ;"  data-aos="fade-up">
                 <img src="../img/iconos/flecha_abajo_Mesa de trabajo 2.png" class="img-fluid" style="height: 100px; width:100px;" alt="flecha abajo">
             </div>
             </section>
@@ -124,9 +125,9 @@
       
     <main class="main-menu">
         <section class="destacados-menu container">
-            <h2>LOS MAS ELEGIDOS POR NUESTROS CLIENTES</h2>
-            <div id="carouselExampleIndicators" class="carousel slide menu-mobile" data-bs-ride="carousel">
-                <div class="carousel-inner">
+            <h2 data-aos="fade-up">LOS MAS ELEGIDOS POR NUESTROS CLIENTES</h2>
+            <div  id="carouselExampleIndicators" class="carousel slide menu-mobile" data-bs-ride="carousel">
+                <div class="carousel-inner" data-aos="fade-up">
                   <div class="carousel-item active">
                     <img src="../img/Donburi Salmon.jpg" class="d-block w-100" alt="...">
                   </div>
@@ -146,7 +147,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-            <div class="owl-container row">
+            <div class="owl-container row" data-aos="fade-up">
                 <div class="owl-carousel owl-theme">
                     <div class="item column" style="width: 400px; margin-right:0px!important  ;"> <img src="../img/Parfait de Citricos.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-fluid"> </div>
                     <div class="item column"  style="width: 400px; margin-right:0px!important ;" > <img src="../img/Donburi Salmon.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow img-fluid">  </div>
@@ -244,7 +245,7 @@
             
         
         
-        <section class="wave-carta" >
+        <section class="wave-carta" data-aos="fade-up">
             <h2 id="titulo-menu">DESCUBRE NUESTRO MENU</h2>
             <div class="cd-projects-container " >		
                 <ul class="cd-projects-previews">
@@ -1123,7 +1124,7 @@
     </main> -->
           <!---footer-->
         <footer class="container-fluid fondo-footer" >
-          <section class="row ">
+          <section class="row " data-aos="fade-up">
             <ul class=" col-lg-12 col-md-12 col-12">
               <li><a href="#"><img src="../img/logos/tortuga logo.png" class="img-fluid" style="height: 60%; width: 60%;" alt="logo tortuga"></a></li>
               <li >
@@ -1174,5 +1175,13 @@
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }</script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+          once: true,
+        duration: 1000
+        });
+    
+      </script>
 </body>
 </html>

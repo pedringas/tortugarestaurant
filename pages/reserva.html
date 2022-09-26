@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESERVA | TORTUGA RESTAURANT</title>
     <link rel="icon" type="image/x-icon" href="">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
@@ -44,11 +45,11 @@
   <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../img/iconos/flecha_Arriba-01.png" style="height: 50px; width: 50px" alt="scroll_top"></button>
   <header class="hero-menu-reserva">
     <section >
-        <div class="container texto-header-index fixed-top" style="align-items: flex-start ; text-align: left;" >
-        <h1 id="titulo-reserva">RESERVAD EN NUESTRO RESTAURANTE</h1>
-        <h5 id="subtitulo-reserva">#EXPERIENCIATORTUGA</h5>
+        <div class="container texto-header-index fixed-top" style="align-items: flex-start ; text-align: left;" data-aos="fade-up">
+          <h1 id="titulo-reserva">RESERVAD EN NUESTRO RESTAURANTE</h1>
+          <h5 id="subtitulo-reserva">#EXPERIENCIATORTUGA</h5>
         </div>           
-        <div class="container texto-header-index fixed-top " style="margin-top: 85vh ;">
+        <div class="container texto-header-index fixed-top " style="margin-top: 85vh ;" data-aos="fade-up">
             <img src="../img/iconos/flecha_abajo_celeste.png" class="img-fluid" style="height: 100px; width:100px;" alt="flecha abajo">
         </div>
         </section>
@@ -109,13 +110,13 @@
     <div class="gold-box"><img src="../img/portadas/ondas-AZULES-arriba-01.png" alt="ONDAS AZULES"></div>
   </div>
   <main>
-    <section class="container-fluid frame-reserva">
+    <section class="container-fluid frame-reserva" data-aos="fade-up">
         <h2>Dicen que cuando la Tortuga hace su presencia,
             estais a punto de ser recompensado
           </h2>
           
-        <h5>HAZ TU RESERVA AQUI</h5>
-        <iframe class="thefork" src="https://module.lafourchette.com/es_ES/module/719761-c9155 " style="width: 100%; min-height:420px; border:none; overflow:scroll;"></iframe>
+        <h5 data-aos="fade-up">HAZ TU RESERVA AQUI</h5>
+        <iframe  data-aos="fade-up" class="thefork" src="https://module.lafourchette.com/es_ES/module/719761-c9155 " style="width: 100%; min-height:420px; border:none; overflow:scroll;"></iframe>
         <div class="wrapper container-fluid">
           <div class="gold-box"><img src="../img/portadas/ondas-azul-abajo-01.svg" alt="ONDAS AZULES"></div>
         </div>
@@ -124,7 +125,7 @@
   </main>
   
   <footer class="container-fluid fondo-footer" >
-    <section class="row ">
+    <section class="row" data-aos="fade-up">
       <ul class=" col-lg-12 col-md-12 col-12">
         <li><a href="#"><img src="../img/logos/tortuga logo.png" class="img-fluid" style="height: 60%; width: 60%;" alt="logo tortuga"></a></li>
         <li >
@@ -172,5 +173,13 @@
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }</script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      duration: 1000
+      });
+  
+    </script>
 </body>
 </html>
