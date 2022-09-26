@@ -593,7 +593,6 @@ li {
 }
 
 .destacados-menu {
-  height: 100vh;
   margin: 10rem 0rem 10rem 0rem;
   display: flex;
   flex-direction: column;
@@ -931,10 +930,7 @@ li {
 
 .active {
   justify-content: center;
-}
-
-.carousel-item {
-  height: 70vh;
+  height: 10vh;
 }
 
 .carousel-indicators {
