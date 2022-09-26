@@ -502,7 +502,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  background-image: url(../../img/portadas/ondas-naranja-azul-01.svg);
+  background-image: url(../img/portadas/ondas-naranja-azul-01.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #141D27;
@@ -606,11 +606,11 @@ li {
 }
 
 .carousel-control-next-icon {
-  background-image: url(../../img/iconos/right-arrow.png);
+  background-image: url(../img/iconos/right-arrow.png);
 }
 
 .carousel-control-prev-icon {
-  background-image: url(../../img/iconos/left-arrow.png);
+  background-image: url(../img/iconos/left-arrow.png);
 }
 
 #comer {
@@ -633,7 +633,7 @@ li {
 }
 
 .sobre-nosotros {
-  background-image: url(../../img/portadas/fondo-nosotros.png);
+  background-image: url(../img/portadas/fondo-nosotros.png);
   justify-content: center;
   position: relative;
   left: 0px;
