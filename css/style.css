@@ -479,6 +479,7 @@ li {
 
 .texto-carta-index, .boton-carta-index {
   display: flex;
+  padding: 0px 0px 50px 0px;
   justify-content: center;
 }
 
