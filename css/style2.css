@@ -179,6 +179,9 @@ Menu trigger
 Projects
 
 -------------------------------- */
+.wave-carta h2{
+  font-family: gotham;
+}
 .cd-projects-container {
   position: relative;
   z-index: 2;

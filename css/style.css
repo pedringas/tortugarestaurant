@@ -596,6 +596,18 @@ li {
   flex-wrap: wrap;
 }
 
+.accordion-collapse {
+  background-color: #EDCFCF;
+}
+
+.accordion-header {
+  border-bottom: 1px solid #C73F29;
+}
+
+.accordion-item {
+  border: none;
+}
+
 .destacados-menu {
   margin: 10rem 0rem 10rem 0rem;
   display: flex;
