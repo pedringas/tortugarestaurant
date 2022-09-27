@@ -12,7 +12,7 @@
     .destacados-menu{
       margin: 10rem 0rem 5rem 0rem !important;
     }
-    .sobre-nosotros img{
+    #nosotros-img{
         display: none;
     }
     .owl-container{
@@ -20,6 +20,9 @@
     }
     #titulo-reserva{
       font-size: 2rem;
+    }
+    #ondas-nosotros{
+      height: 70vh;
     }
 
 
@@ -227,6 +230,9 @@
     z-index: 1;
     min-height: 80vh;
     margin-top: 30vh;
+}
+.sobre-nosotros img {
+  padding: 0rem 3rem 0rem 3rem;
 }
 
 #nuestro-index{
@@ -497,6 +503,11 @@
     margin: 5rem 0rem 5rem 0rem;
     max-width: 800px;
   }
+  #ondas-nosotros{
+    background-image: url(../img/portadas/doble-onda-celeste-01.png);
+    height: 100vh !important;
+     background-repeat: no-repeat;
+  }
 #contactanos{
   color: $tortuga2;
 }
@@ -519,7 +530,7 @@
 
 .active{
   justify-content: center;
-  height: 10vh;
+  
 }
 
 
@@ -527,6 +538,10 @@
 .carousel-indicators{
   margin:0px;
 }
+.carousel-item{
+  height: 10vh;
+}
+
 
 .main-menu{
   display: flex;
@@ -543,6 +558,7 @@
 .owl-container{
   max-width: 1000px;
 }
+
 
 
 
