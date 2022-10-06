@@ -73,7 +73,6 @@
 }
 .texto-carta-index, .boton-carta-index{
     display: flex;
-    padding: 0px 0px 50px 0px;
     justify-content: center ;
 }
 .texto-carta-index{
@@ -93,11 +92,11 @@
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  background-image: url(../img/portadas/ondas-naranja-azul-01.svg);
+  justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: $tortuga2;
-  height: 110vh;
+  background-color: $tortugaN;
+  height: 100vh;
 }
 
 .boton-main-index a {
@@ -122,9 +121,9 @@
 }
 
 .fondo-delivery-index{
-    background-image: url(../img/portadas/wave3-01-01.png);
+    background-image: url(../img/portadas/fondo_banner_delivery.jpg);
     background-size: cover; 
-    height: 100vh; 
+    height: 50vh; 
     width: 100%;
 
 }

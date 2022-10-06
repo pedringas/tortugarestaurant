@@ -191,17 +191,17 @@ nav ul {
 
 .hero-menu-nosotros {
   background-color: #EDCFCF;
-  height: 100vh;
+  height: 85vh;
 }
 
 .hero-menu-contacto {
   background-color: #3F75B8;
-  height: 100vh;
+  height: 85vh;
 }
 
 .hero-menu-reserva {
   background-color: #141D27;
-  height: 100vh;
+  height: 85vh;
 }
 
 .dropdown-menu {
@@ -272,8 +272,28 @@ nav ul {
 }
 
 @media screen and (max-width: 992px) {
-  h1, h2, h3, h4, h5 {
-    font-size: smaller;
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.5rem;
+  }
+
+  h6 {
+    font-size: 0.25rem;
   }
 }
 body {
@@ -287,25 +307,31 @@ body a {
 body h1 {
   font-size: 3.5rem;
   color: #ffff;
+  line-height: 1;
   font-family: optician;
 }
 body h2 {
+  line-height: 1;
   font-size: 3rem;
   font-family: optician;
 }
 body h3 {
   font-size: 2.5rem;
+  line-height: 1;
   font-family: optician;
 }
 body h4 {
+  line-height: 1;
   font-size: 1.5rem;
   font-family: copper;
 }
 body h5 {
+  line-height: 1;
   font-size: 1rem;
   font-family: copper;
 }
 body h6 {
+  line-height: 1;
   font-size: 0.5rem;
   font-family: copper;
 }
@@ -483,7 +509,6 @@ li {
 
 .texto-carta-index, .boton-carta-index {
   display: flex;
-  padding: 0px 0px 50px 0px;
   justify-content: center;
 }
 
@@ -506,11 +531,11 @@ li {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  background-image: url(../img/portadas/ondas-naranja-azul-01.svg);
+  justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #141D27;
-  height: 110vh;
+  background-color: #C73F29;
+  height: 100vh;
 }
 
 .boton-main-index a {
@@ -536,9 +561,9 @@ li {
 }
 
 .fondo-delivery-index {
-  background-image: url(../img/portadas/wave3-01-01.png);
+  background-image: url(../img/portadas/fondo_banner_delivery.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
 }
 
