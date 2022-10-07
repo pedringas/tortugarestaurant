@@ -191,17 +191,17 @@ nav ul {
 
 .hero-menu-nosotros {
   background-color: #EDCFCF;
-  height: 85vh;
+  height: 100vh;
 }
 
 .hero-menu-contacto {
   background-color: #3F75B8;
-  height: 85vh;
+  height: 100vh;
 }
 
 .hero-menu-reserva {
   background-color: #141D27;
-  height: 85vh;
+  height: 100vh;
 }
 
 .dropdown-menu {
@@ -302,38 +302,38 @@ body {
 }
 body a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 body h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #ffff;
   line-height: 1;
   font-family: optician;
 }
 body h2 {
   line-height: 1;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: optician;
 }
 body h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1;
   font-family: optician;
 }
 body h4 {
   line-height: 1;
   font-size: 1.5rem;
-  font-family: copper;
+  font-family: optician;
 }
 body h5 {
   line-height: 1;
   font-size: 1rem;
-  font-family: copper;
+  font-family: optician;
 }
 body h6 {
   line-height: 1;
-  font-size: 0.5rem;
-  font-family: copper;
+  font-size: 0.8rem;
+  font-family: optician;
 }
 
 #myBtn {
@@ -451,10 +451,6 @@ li {
   #titulo-reserva {
     font-size: 2rem;
   }
-
-  #ondas-nosotros {
-    height: 70vh;
-  }
 }
 @media screen and (max-width: 450px) {
   .texto-carta-index h2 {
@@ -519,6 +515,7 @@ li {
 
 #texto-menu-index {
   color: #141D27;
+  max-width: 500px;
 }
 
 .nosotros-index {
@@ -679,8 +676,7 @@ li {
   left: 0px;
   top: 0px;
   z-index: 1;
-  min-height: 80vh;
-  margin-top: 30vh;
+  min-height: 90vh;
 }
 
 .sobre-nosotros img {
@@ -764,7 +760,20 @@ li {
 
 #titulo-nosotros {
   color: #C73F29;
+  text-align: start;
+}
+
+#titulo-nosotros2 {
+  color: #141D27;
   text-align: center;
+}
+
+.ubicacion-titulos h2 {
+  padding-top: 5rem;
+}
+
+.ubicacion-titulos img {
+  margin-bottom: 2rem;
 }
 
 #map {
@@ -938,12 +947,11 @@ li {
 }
 
 .banner-contacto {
-  background-color: #141D27;
-  padding: 0rem 0rem 10rem 0rem;
+  background-color: #C73F29;
+  padding: 3rem 0rem 10rem 0rem;
 }
 
-.banner-contacto H3, h4 {
-  margin: 3rem 0rem;
+.banner-contacto h3, h4 {
   color: #ffff;
   text-align: center;
 }
@@ -956,8 +964,8 @@ li {
 }
 
 #ondas-nosotros {
-  background-image: url(../img/portadas/doble-onda-celeste-01.png);
-  height: 100vh !important;
+  background-image: url(../../img/portadas/ondas-naranja-azul-arriba-01.svg);
+  height: 60vh !important;
   background-repeat: no-repeat;
 }
 

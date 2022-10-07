@@ -180,13 +180,14 @@ Projects
 
 -------------------------------- */
 .wave-carta h2{
-  font-family: gotham;
+  font-family: optician;
 }
 .cd-projects-container {
   position: relative;
   z-index: 2;
   overflow-x: hidden;
 }
+
 .cd-projects-container.project-open {
   /* smooth scroll on iOS devices */
   -webkit-overflow-scrolling: touch;
@@ -279,6 +280,10 @@ Projects
 }
 .cd-projects-previews .bg-loaded a {
   opacity: 1;
+}
+.bg-loaded:hover{
+  filter: grayscale(1) ;
+  transition: ease-in-out .5s;
 }
 @media only screen and (min-width: 1024px) {
   .cd-projects-previews li {
@@ -437,11 +442,6 @@ Projects
   -moz-transition: -moz-transform 0.3s 0.3s;
   transition: transform 0.3s 0.3s;
 }
-.cd-project-title h2 {
-  font-size: 2.5rem;
-  line-height: 1.5;
-  font-weight: 700;
-}
 
 @media only screen and (min-width: 1024px) {
   .cd-project-title {
@@ -560,6 +560,13 @@ li.selected .cd-project-title,
 }
 .content-visible .cd-project-info {
   display: block;
+}
+.content-visible h2{
+  font-family: copper;
+}
+.titulos-menu-desplegado{
+  margin: 3rem 0rem;
+  color: #141D27;
 }
 .cd-project-info p {
   width: 90%;
@@ -698,10 +705,7 @@ li.selected .cd-project-title,
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
-  color: #ffffff;
-  font-family: "Merriweather", serif;
-  font-size: 2.4rem;
-  font-weight: 700;
+  color: #ffffff; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -713,8 +717,6 @@ li.selected .cd-project-title,
   margin: 2.4em 0 2em;
   color: #a8ae7e;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.2rem;
   letter-spacing: 1px;
 }
 .cd-primary-nav .cd-label::after {
@@ -843,8 +845,7 @@ JavaScript Disabled
   position: absolute;
   top: 10px;
   right: 25px;
-  font-size: 35px;
-  font-weight: bold;
+
 }
 
 .close:hover,
@@ -869,8 +870,6 @@ JavaScript Disabled
   padding: 16px;
   margin-top: -50px;
   color: white;
-  font-weight: bold;
-  font-size: 20px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -892,7 +891,7 @@ JavaScript Disabled
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  
   padding: 8px 12px;
   position: absolute;
   top: 0;
