@@ -3,11 +3,15 @@
   .menu-mobile{
     display: none;
   }
+  .ondas-nosotros-mobile{
+    display: none;
+  }
     
 }
 @media screen and (max-width: 992px) {
     .texto-carta-index h2{
-        font-size: 30px;
+        font-size: 40px;
+        padding-bottom: 3rem;
     }
     .destacados-menu{
       margin: 10rem 0rem 5rem 0rem !important;
@@ -20,6 +24,9 @@
     }
     #titulo-reserva{
       font-size: 2rem;
+    }
+    #ondas-nosotros{
+      display: none;
     }
 
 
@@ -114,6 +121,10 @@
 }
 #comer{
     max-width: 400px;
+}
+.comer-mobile{
+  display: flex;
+  justify-content: center;
 }
 #mensaje{
     height: 100px;
@@ -258,10 +269,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-
+    padding: 0rem 2rem;
     position: relative;
     z-index: 1;
-    max-width: 400px;
+    max-width: 500px;
     align-items: center;
 }
 .container-fluid{
@@ -324,6 +335,12 @@
   color: $tortuga2;
   text-align: center;
 }
+.ubicacion-titulos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .ubicacion-titulos h2{
     padding-top: 5rem;
 }
@@ -356,7 +373,7 @@
   
   .background {
     display: flex;
-    min-height: 100vh;
+    min-height: 70vh;
   }
   
 
@@ -519,9 +536,23 @@
     margin: 5rem 0rem 5rem 0rem;
     max-width: 800px;
   }
+  .titulos-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulos-contacto img, h4comer-mobile{
+    padding: 2rem 0rem;
+  }
   #ondas-nosotros{
     background-image: url(../../img/portadas/ondas-naranja-azul-arriba-01.svg);
     height: 60vh !important;
+     background-repeat: no-repeat;
+  }
+  .ondas-nosotros-mobile{
+    background-image: url(../../img/portadas/ondas-naranja-azul-arriba-01.svg);
+    height: 25vh !important;
      background-repeat: no-repeat;
   }
 #contactanos{
