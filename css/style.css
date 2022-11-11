@@ -688,7 +688,7 @@ li {
 }
 
 .sobre-nosotros {
-  background-image: url(../img/portadas/fondo-nosotros.png);
+  background-image: url(../img/portadas/interior-tortuga-mesas-index-azul.png);
   justify-content: center;
   position: relative;
   left: 0px;
@@ -1001,13 +1001,13 @@ li {
 }
 
 #ondas-nosotros {
-  background-image: url(../../img/portadas/ondas-naranja-azul-arriba-01.svg);
+  background-image: url(../img/portadas/ondas-naranja-azul-arriba-01.svg);
   height: 60vh !important;
   background-repeat: no-repeat;
 }
 
 .ondas-nosotros-mobile {
-  background-image: url(../../img/portadas/ondas-naranja-azul-arriba-01.svg);
+  background-image: url(../img/portadas/ondas-naranja-azul-arriba-01.svg);
   height: 25vh !important;
   background-repeat: no-repeat;
 }
