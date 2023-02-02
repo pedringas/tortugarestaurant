@@ -985,7 +985,7 @@ li {
 #titulo-contacto2 {
   text-align: center;
   color: #3F75B8;
-  margin: 5rem 0rem 5rem 0rem;
+  margin: 5rem 2rem;
   max-width: 800px;
 }
 
@@ -1020,7 +1020,7 @@ li {
   font-family: optician;
   text-align: center;
   color: #C73F29;
-  margin: 10rem 0rem;
+  margin: 10rem 1rem;
 }
 
 .frame-reserva h5 {
@@ -1028,6 +1028,7 @@ li {
   font-family: gotham;
   font-size: 2rem;
   color: #3F75B8;
+  padding: 0rem 1rem;
 }
 
 .active {

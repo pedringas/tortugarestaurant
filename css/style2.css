@@ -2,6 +2,19 @@
   border: 2px solid #C73F29;
    border-radius: 50px;
 }
+@media screen and (max-width: 850px) {
+  .img-pc{
+    display: none;
+  }
+  
+}
+@media (min-width: 851px) {
+
+  .img-celu{
+    display: none;
+  }
+  
+}
 
 /* -------------------------------- 
 
@@ -839,7 +852,7 @@ JavaScript Disabled
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 70%;
+  width:fit-content;
   max-width: 1200px;
 }
 
