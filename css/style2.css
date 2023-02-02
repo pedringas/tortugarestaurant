@@ -1,3 +1,7 @@
+.back img:hover{
+  border: 2px solid #C73F29;
+   border-radius: 50px;
+}
 
 /* -------------------------------- 
 
@@ -565,7 +569,7 @@ li.selected .cd-project-title,
   font-family: copper;
 }
 .titulos-menu-desplegado{
-  margin: 3rem 0rem;
+  margin: 3rem 1rem;
   color: #141D27;
 }
 .cd-project-info p {
