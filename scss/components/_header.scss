@@ -22,6 +22,9 @@
     .boton-header-menu{
         display: none;
     }
+    .nav-link{
+        font-size: 25px;
+    }
 
 
 }
@@ -52,8 +55,9 @@ nav ul {
 }
 
 .nav-link{
-    font-size: 25px;
+    font-size: 20px;
     color:$tortuga1;
+    font-weight: bold;
     &:hover{
         color: $tortugaN;
     }
@@ -127,6 +131,7 @@ nav ul {
 }
 .boton-header-index a{
     color: $tortuga1;
+    font-weight: bold;
     border-radius: 2rem;
     padding: 15px 25px;
     transition: all 0.5s;

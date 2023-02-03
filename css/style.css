@@ -33,6 +33,10 @@
   .boton-header-menu {
     display: none;
   }
+
+  .nav-link {
+    font-size: 25px;
+  }
 }
 .btn-close {
   background: transparent url(../img/iconos/xx.png) center/1em auto no-repeat;
@@ -61,8 +65,9 @@ nav ul {
 }
 
 .nav-link {
-  font-size: 25px;
+  font-size: 20px;
   color: #ffff;
+  font-weight: bold;
 }
 .nav-link:hover {
   color: #C73F29;
@@ -140,6 +145,7 @@ nav ul {
 
 .boton-header-index a {
   color: #ffff;
+  font-weight: bold;
   border-radius: 2rem;
   padding: 15px 25px;
   transition: all 0.5s;
